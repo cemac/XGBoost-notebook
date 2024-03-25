@@ -1,0 +1,12 @@
+name: XGB
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - notebook=7.1
+  - pandas=2.2
+  - numpy=1.26
+  - matplotlib=3.8
+  - py-xgboost=2.0
+  - scikit-learn=1.3
