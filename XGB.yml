@@ -1,7 +1,7 @@
 name: XGB
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python=3.12
   - notebook=7.1
