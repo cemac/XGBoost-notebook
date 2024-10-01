@@ -8,6 +8,9 @@
 
 # Gradient Boosting with XGBoost
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cemac/XGBoost-notebook/HEAD?labpath=XGBoost.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cemac/XGBoost-notebook/blob/main/XGBoost.ipynb)
+
 In this tutorial notebook, we will run through the process of fitting [XGBoost](https://xgboost.readthedocs.io/en/stable/) models to meteorological data from the [SHEBA campaign](https://www.eol.ucar.edu/field_projects/sheba), in order to predict surface turbulent fluxes of sensible heat over sea ice in the Arctic. This application to polar turbulent fluxes, inspired by the work of [Cummins et al. (2023)](https://doi.org/10.1029/2023GL105698) and [Cummins et al. (2024)](https://doi.org/10.1007/s10546-023-00852-8), is an example of a parametrization problem that is hard to solve with traditional physics, and illustrates how modern boosting methods allow us to easily obtain performant models.
 
 ## Notebook Prerequisites
